@@ -1,0 +1,77 @@
+.dashboard {
+    padding: 20px;
+}
+
+.dashboard h2 {
+    color: #1e90ff;
+}
+
+.summary {
+    background-color: #f0f8ff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.entry-form {
+    margin-bottom: 20px;
+}
+
+.entry-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.entry-form input,
+.entry-form select {
+    margin-left: 10px;
+}
+
+.entry-form button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.entries ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.entries li {
+    background-color: #f0f8ff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.entries button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.entry-form button {
+    margin-right: 10px;
+    background-color: #1e90ff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.entry-form button:last-child {
+    background-color: #ff4d4d;
+}
+
+.entries button {
+    margin-left: 5px;
+    background-color: #1e90ff;
+    color: white;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}

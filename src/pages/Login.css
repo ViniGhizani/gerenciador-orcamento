@@ -1,0 +1,26 @@
+.login {
+    padding: 20px;
+    text-align: center;
+}
+
+.login h2 {
+    color: #1e90ff;
+}
+
+.login form {
+    display: inline-block;
+    text-align: left;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
