@@ -123,7 +123,7 @@ const Dashboard: React.FC = () => {
           {editingEntry ? 'Atualizar' : 'Adicionar'}
         </button>
         {editingEntry && (
-          <button onClick={cancelEdit}>Cancelar</button>
+          <button className="cancel" onClick={cancelEdit}>Cancelar</button>
         )}
       </div>
       <div className="entries">

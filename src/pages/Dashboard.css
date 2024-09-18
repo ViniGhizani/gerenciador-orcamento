@@ -26,14 +26,6 @@
     margin-left: 10px;
 }
 
-.entry-form button {
-    background-color: #1e90ff;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-}
-
 .entries ul {
     list-style-type: none;
     padding: 0;
@@ -46,13 +38,17 @@
 }
 
 .entries button {
-    background-color: #ff4d4d;
+    margin-left: 5px;
+    background-color: #1e90ff;
     color: white;
     padding: 5px;
     border: none;
     cursor: pointer;
-    margin-left: 10px;
 }
+
+.entries button:last-child {
+    background-color: #ff4d4d;
+} 
 
 .entry-form button {
     margin-right: 10px;
@@ -63,15 +59,6 @@
     cursor: pointer;
 }
 
-.entry-form button:last-child {
+.entry-form .cancel {
     background-color: #ff4d4d;
-}
-
-.entries button {
-    margin-left: 5px;
-    background-color: #1e90ff;
-    color: white;
-    padding: 5px;
-    border: none;
-    cursor: pointer;
 }
